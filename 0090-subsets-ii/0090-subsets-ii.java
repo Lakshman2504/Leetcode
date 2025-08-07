@@ -2,7 +2,7 @@ class Solution {
     public void subset(int index,int[] arr,List<Integer> temp,List<List<Integer>> res){
         res.add(new ArrayList<>(temp));
         for(int i = index;i<arr.length;i++){
-            if(i > index && arr[i] == arr[i - 1]) continue;
+            if(i != index && arr[i] == arr[i - 1]) continue;
 
             temp.add(arr[i]);
             subset(i + 1,arr,temp,res);
