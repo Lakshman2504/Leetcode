@@ -12,13 +12,16 @@ A collection of LeetCode questions to ace the coding interview! - Created using 
 ## Array
 |  |
 | ------- |
+| [0078-subsets](https://github.com/Lakshman2504/Leetcode/tree/master/0078-subsets) |
 | [0090-subsets-ii](https://github.com/Lakshman2504/Leetcode/tree/master/0090-subsets-ii) |
 ## Backtracking
 |  |
 | ------- |
+| [0078-subsets](https://github.com/Lakshman2504/Leetcode/tree/master/0078-subsets) |
 | [0090-subsets-ii](https://github.com/Lakshman2504/Leetcode/tree/master/0090-subsets-ii) |
 ## Bit Manipulation
 |  |
 | ------- |
+| [0078-subsets](https://github.com/Lakshman2504/Leetcode/tree/master/0078-subsets) |
 | [0090-subsets-ii](https://github.com/Lakshman2504/Leetcode/tree/master/0090-subsets-ii) |
 <!---LeetCode Topics End-->
