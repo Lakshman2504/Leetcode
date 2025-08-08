@@ -12,6 +12,7 @@ A collection of LeetCode questions to ace the coding interview! - Created using 
 ## Array
 |  |
 | ------- |
+| [0041-first-missing-positive](https://github.com/Lakshman2504/Leetcode/tree/master/0041-first-missing-positive) |
 | [0078-subsets](https://github.com/Lakshman2504/Leetcode/tree/master/0078-subsets) |
 | [0090-subsets-ii](https://github.com/Lakshman2504/Leetcode/tree/master/0090-subsets-ii) |
 | [0948-sort-an-array](https://github.com/Lakshman2504/Leetcode/tree/master/0948-sort-an-array) |
@@ -53,4 +54,8 @@ A collection of LeetCode questions to ace the coding interview! - Created using 
 |  |
 | ------- |
 | [0948-sort-an-array](https://github.com/Lakshman2504/Leetcode/tree/master/0948-sort-an-array) |
+## Hash Table
+|  |
+| ------- |
+| [0041-first-missing-positive](https://github.com/Lakshman2504/Leetcode/tree/master/0041-first-missing-positive) |
 <!---LeetCode Topics End-->
