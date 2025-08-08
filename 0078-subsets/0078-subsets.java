@@ -5,11 +5,14 @@ class Solution {
         return res;
     }
     public static void recursion(int index,int[] arr,List<Integer> temp,List<List<Integer>> res){
-        res.add(new ArrayList<>(temp));
-        for(int i = index;i<arr.length;i++){
-            temp.add(arr[i]);
-            recursion(i + 1,arr,temp,res);
-            temp.remove(temp.size() - 1);
+        if(index == arr.length){
+            res.add(new ArrayList<>(temp));
+            return;
         }
+        temp.add(arr[index]);
+        recursion(index + 1,arr,temp,res);
+
+        temp.remove(temp.size() - 1);
+        recursion(index + 1,arr,temp,res);
     }
 }
