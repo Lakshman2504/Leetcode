@@ -70,4 +70,9 @@ A collection of LeetCode questions to ace the coding interview! - Created using 
 |  |
 | ------- |
 | [0025-reverse-nodes-in-k-group](https://github.com/Lakshman2504/Leetcode/tree/master/0025-reverse-nodes-in-k-group) |
+| [0060-permutation-sequence](https://github.com/Lakshman2504/Leetcode/tree/master/0060-permutation-sequence) |
+## Math
+|  |
+| ------- |
+| [0060-permutation-sequence](https://github.com/Lakshman2504/Leetcode/tree/master/0060-permutation-sequence) |
 <!---LeetCode Topics End-->
