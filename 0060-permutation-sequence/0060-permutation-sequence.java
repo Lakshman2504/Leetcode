@@ -1,28 +1,25 @@
 class Solution {
-    int count = 0;
-    String ans = "";
-    public void permute(int n,int k,StringBuilder temp,boolean[] used){
-        if(temp.length() == n){
-            count++;
-            if(count == k){
-                ans = temp.toString();
-            }
-            return;
+    public String permute(int[] fact,List<Integer> res,int k){
+        if(res.isEmpty()){
+            return "";
         }
-        for(int i = 1;i<=n;i++){
-            if(!used[i]){
-                used[i] = true;
-                temp.append(i);
-                permute(n,k,temp,used);
-                temp.deleteCharAt(temp.length() - 1);
-                used[i] = false;
-            }
-        }
+        int n = res.size();
+        int idx = k / fact[n - 1];
+        int newK = k % fact[n - 1];
+
+        int chosen = res.remove(idx);
+        return chosen + permute(fact,res,newK);
     }
     public String getPermutation(int n, int k) {
-        StringBuilder temp = new StringBuilder();
-        boolean[] used = new boolean[n + 1];
-        permute(n,k,temp,used);
-        return ans;
+        List<Integer> res = new ArrayList<>();
+        for(int i = 1;i<=n;i++){
+            res.add(i);
+        }
+        int[] fact = new int[n + 1];
+        fact[0] = 1;
+        for(int i = 1;i<n;i++){
+            fact[i] = fact[i - 1] * i;
+        }
+        return permute(fact,res,k - 1);
     }
 }
