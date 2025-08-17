@@ -1,8 +1,6 @@
 class Solution {
     public String permute(int[] fact,List<Integer> res,int k){
-        if(res.isEmpty()){
-            return "";
-        }
+        if(res.isEmpty())  return "";
         int n = res.size();
         int idx = k / fact[n - 1];
         int newK = k % fact[n - 1];
