@@ -20,6 +20,7 @@ A collection of LeetCode questions to ace the coding interview! - Created using 
 | [0051-n-queens](https://github.com/Lakshman2504/Leetcode/tree/master/0051-n-queens) |
 | [0078-subsets](https://github.com/Lakshman2504/Leetcode/tree/master/0078-subsets) |
 | [0090-subsets-ii](https://github.com/Lakshman2504/Leetcode/tree/master/0090-subsets-ii) |
+| [0238-product-of-array-except-self](https://github.com/Lakshman2504/Leetcode/tree/master/0238-product-of-array-except-self) |
 | [0643-maximum-average-subarray-i](https://github.com/Lakshman2504/Leetcode/tree/master/0643-maximum-average-subarray-i) |
 | [0948-sort-an-array](https://github.com/Lakshman2504/Leetcode/tree/master/0948-sort-an-array) |
 ## Backtracking
@@ -89,4 +90,8 @@ A collection of LeetCode questions to ace the coding interview! - Created using 
 |  |
 | ------- |
 | [0643-maximum-average-subarray-i](https://github.com/Lakshman2504/Leetcode/tree/master/0643-maximum-average-subarray-i) |
+## Prefix Sum
+|  |
+| ------- |
+| [0238-product-of-array-except-self](https://github.com/Lakshman2504/Leetcode/tree/master/0238-product-of-array-except-self) |
 <!---LeetCode Topics End-->
