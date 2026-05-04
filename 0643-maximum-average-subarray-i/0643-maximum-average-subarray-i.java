@@ -11,6 +11,7 @@ class Solution {
                 max = sum;
             }
         }
-        return max/k;
+        double res = max/k;
+        return res;
     }
 }
